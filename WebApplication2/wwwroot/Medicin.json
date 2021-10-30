@@ -1,0 +1,15 @@
+﻿[
+  {
+    "BrandName": "ManKind",
+    "MedicinName": "Paracitamol",
+    "ExpiryDate": "2021-10-12T13:00:00.000",
+    "Qty": 50
+  },
+  {
+    "BrandName": "Sun Pharam",
+    "MedicinName": "Carpol",
+    "ExpiryDate": "2022-10-12T13:00:00.000",
+    "Qty": 15
+  }
+
+]

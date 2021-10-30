@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    @{ 
+        List<WebApplication2.Models.Medicin> medicins = ViewBag.Medicins;
+        <table>
+            <th>MedicinName</th>
+            <th>BrandName</th>
+            <th>ExpiryDate</th>
+            <th>Notes</th>
+            <th>Qty</th>
+            @foreach (var item in medicins)
+            {
+                <tr style="background-color:@item.BgColor">
+                    <td>@item.MedicinName</td>
+                    <td>@item.BrandName</td>
+                    <td>@item.ExpiryDate</td>
+                    <td>@item.Notes</td>
+                    <td>@item.Qty</td>
+                </tr>
+            }
+        </table>
+    }
+</div>
