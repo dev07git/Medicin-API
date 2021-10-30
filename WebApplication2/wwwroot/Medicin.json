@@ -7,9 +7,23 @@
   },
   {
     "BrandName": "Sun Pharam",
-    "MedicinName": "Carpol",
+    "MedicinName": "Calpol",
     "ExpiryDate": "2022-10-12T13:00:00.000",
     "Qty": 15
+  },
+
+  {
+    "BrandName": "GlaxoSmithKline's",
+    "MedicinName": "Panadol",
+    "ExpiryDate": "2022-10-12T13:00:00.000",
+    "Qty": 15
+  },
+
+  {
+    "BrandName": "Israel",
+    "MedicinName": "Acamol",
+    "ExpiryDate": "2022-10-12T13:00:00.000",
+    "Qty": 30
   }
 
 ]
